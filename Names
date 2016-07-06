@@ -1,0 +1,20 @@
+#include <iostream>
+#include <string>
+using namespace std;
+
+int main()
+{
+string fName;
+string lName;
+
+cout << "Enter first name: ";
+getline(cin, fName);
+
+cout << "Enter last name: ";
+getline(cin, lName);
+
+cout << fName + ' ' + lName + '.';
+
+return 0;
+}
+
